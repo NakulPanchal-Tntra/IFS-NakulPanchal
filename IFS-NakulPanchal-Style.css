@@ -39,6 +39,31 @@ nav ul li:last-child a {
   margin-left: 15px;
 }
 
+main{
+  position: relative;
+  overflow: hidden;
+}
+
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+  z-index: -1;
+}
+.circle1{
+  background-color: pink;
+  height: 500px;
+  width: 500px;
+  top: 175rem;
+  right: 0px;
+}
+.circle2{
+  background-color: #fafa74;
+  height: 500px;
+  width: 500px;
+  top: 200rem;
+  left: -250px;
+}
 /* Hero Section */
 .hero {
   display: flex;
