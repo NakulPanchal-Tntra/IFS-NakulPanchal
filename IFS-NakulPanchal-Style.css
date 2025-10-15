@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   display: flex;
@@ -49,6 +50,7 @@ main{
   border-radius: 50%;
   opacity: 0.1;
   z-index: -1;
+  filter: blur(5px);
 }
 .circle1{
   background-color: pink;
@@ -204,16 +206,16 @@ main .info-section:nth-of-type(odd) {
 }
 
 .info-content {
-  max-width: 500px;
+  max-width: 550px;
   margin: 40px;
   text-align: left;
   font-size: larger;
 }
 
-.info-content h1 {
-  font-size: 48px;
+.info-content h3 {
+  font-size: 24px;
   margin-bottom: 40px;
-  line-height: 1.2em;
+  line-height: 1.6em;
 }
 .info-content p {
   font-size: 15px;
